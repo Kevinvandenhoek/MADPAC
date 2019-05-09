@@ -1,0 +1,1276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A02BF4821051A7200FB2EB1 /* MADVideoControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02BF4721051A7200FB2EB1 /* MADVideoControlsView.swift */; };
+		0A02BF4B2105239C00FB2EB1 /* MADProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02BF4A2105239C00FB2EB1 /* MADProgressBar.swift */; };
+		0A02BF4D21052EB700FB2EB1 /* MADBasicNavigationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02BF4C21052EB700FB2EB1 /* MADBasicNavigationAnimator.swift */; };
+		0A02BF4F21052EE200FB2EB1 /* PopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02BF4E21052EE200FB2EB1 /* PopAnimator.swift */; };
+		0A0790EE21067D3E00148139 /* MADVolumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0790ED21067D3E00148139 /* MADVolumeView.swift */; };
+		0A0CF6D220F9890F003F7136 /* MADStartupOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0CF6D120F9890F003F7136 /* MADStartupOverlay.swift */; };
+		0A0E78932110F2D200E0283C /* MediaSessionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0E78922110F2D200E0283C /* MediaSessionHelper.swift */; };
+		0A1241CA20FA078B00006A23 /* MADLoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1241C920FA078B00006A23 /* MADLoadingOverlay.swift */; };
+		0A1241CC20FA5BCE00006A23 /* TopBarPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1241CB20FA5BCE00006A23 /* TopBarPage.swift */; };
+		0A1241CE20FA5D1600006A23 /* MADTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1241CD20FA5D1600006A23 /* MADTopView.swift */; };
+		0A1241D120FA66BF00006A23 /* PostCategoryTopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1241D020FA66BF00006A23 /* PostCategoryTopBarView.swift */; };
+		0A1241D720FA6A2000006A23 /* MADSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1241D620FA6A2000006A23 /* MADSegmentedControl.swift */; };
+		0A1241DB20FA6A9800006A23 /* MADSegmentedControlCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1241DA20FA6A9800006A23 /* MADSegmentedControlCollectionViewCell.swift */; };
+		0A1241DD20FA74C500006A23 /* MADRoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1241DC20FA74C500006A23 /* MADRoundView.swift */; };
+		0A1241E020FA9F7100006A23 /* MADVideoTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1241DF20FA9F7100006A23 /* MADVideoTopView.swift */; };
+		0A1241E320FAA94A00006A23 /* MoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1241E220FAA94A00006A23 /* MoreCollectionViewCell.swift */; };
+		0A1241E520FAAD4A00006A23 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1241E420FAAD4A00006A23 /* UserDefaults+Extension.swift */; };
+		0A1241EB20FAB46200006A23 /* MADVideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1241EA20FAB46200006A23 /* MADVideoPlayerView.swift */; };
+		0A1241ED20FAC96A00006A23 /* MADVideoBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1241EC20FAC96A00006A23 /* MADVideoBottomView.swift */; };
+		0A1241EF20FB65C000006A23 /* MADBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1241EE20FB65C000006A23 /* MADBlurView.swift */; };
+		0A1241F120FB83A800006A23 /* MADDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1241F020FB83A800006A23 /* MADDetailViewController.swift */; };
+		0A1241F420FB948700006A23 /* MADTransitioningViewNavigationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1241F320FB948700006A23 /* MADTransitioningViewNavigationAnimator.swift */; };
+		0A1241F620FB9BE300006A23 /* NavigationTransitioningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1241F520FB9BE300006A23 /* NavigationTransitioningView.swift */; };
+		0A1241FB20FBAFEF00006A23 /* MADDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1241FA20FBAFEF00006A23 /* MADDetailHeaderView.swift */; };
+		0A1241FD20FBD91200006A23 /* HTMLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1241FC20FBD91200006A23 /* HTMLHelper.swift */; };
+		0A1241FF20FBEB1E00006A23 /* MADDetailVideoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1241FE20FBEB1E00006A23 /* MADDetailVideoHeaderView.swift */; };
+		0A12420220FBEC9B00006A23 /* MADVideoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A12420120FBEC9B00006A23 /* MADVideoDetailViewController.swift */; };
+		0A20B071210E08B800738D9F /* MADPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A20B070210E08B800738D9F /* MADPlayerManager.swift */; };
+		0A20B073210E0A5000738D9F /* MADPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A20B072210E0A5000738D9F /* MADPlayer.swift */; };
+		0A20B075210E3E8900738D9F /* MADConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A20B074210E3E8900738D9F /* MADConstants.swift */; };
+		0A2E898520FD3A7A0030EA0E /* TransformingVideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E898420FD3A7A0030EA0E /* TransformingVideoPlayerView.swift */; };
+		0A310B6A21037AF2001E0CEB /* UITabBarController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A310B6921037AF2001E0CEB /* UITabBarController+Extension.swift */; };
+		0A310B6C21039D51001E0CEB /* MADArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A310B6B21039D51001E0CEB /* MADArticleDetailViewController.swift */; };
+		0A310B6E21039E9D001E0CEB /* MADVideoTabDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A310B6D21039E9D001E0CEB /* MADVideoTabDetailViewController.swift */; };
+		0A310B702103A78D001E0CEB /* MADVideoTabNavigationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A310B6F2103A78D001E0CEB /* MADVideoTabNavigationAnimator.swift */; };
+		0A310B722103EE18001E0CEB /* TransformingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A310B712103EE18001E0CEB /* TransformingImageView.swift */; };
+		0A310B762104B1D0001E0CEB /* MADLoadingBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A310B752104B1D0001E0CEB /* MADLoadingBottomBar.swift */; };
+		0A310B782104D872001E0CEB /* HapticFeedbackHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A310B772104D872001E0CEB /* HapticFeedbackHelper.swift */; };
+		0A40736F20BF3199004FBA69 /* MADVideoType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A40736E20BF3199004FBA69 /* MADVideoType.swift */; };
+		0A45CC0620BF2F580075F6F2 /* YoutubeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A45CC0520BF2F580075F6F2 /* YoutubeHelper.swift */; };
+		0A45CC0820BF2FC20075F6F2 /* MADVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A45CC0720BF2FC20075F6F2 /* MADVideoView.swift */; };
+		0A52C6AC214577FB00DCE101 /* MADVideoArticleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52C6AB214577FB00DCE101 /* MADVideoArticleCollectionViewCell.swift */; };
+		0A52C6AF2145787300DCE101 /* MADTextBlurOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52C6AE2145787300DCE101 /* MADTextBlurOverlay.swift */; };
+		0A5AC4AB20BDD63F00964F1A /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC4AA20BDD63F00964F1A /* UIColor+Extension.swift */; };
+		0A5AC4AE20BDD87000964F1A /* MADAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC4AD20BDD87000964F1A /* MADAPI.swift */; };
+		0A5AC4B020BDD9B400964F1A /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC4AF20BDD9B400964F1A /* Environment.swift */; };
+		0A5AC4B220BDDC4800964F1A /* MADLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC4B120BDDC4800964F1A /* MADLaunchViewController.swift */; };
+		0A5AC4B720BDDDC300964F1A /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC4B620BDDDC300964F1A /* UIViewController+Extension.swift */; };
+		0A5AC4BA20BDDFC200964F1A /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC4B920BDDFC200964F1A /* Categories.swift */; };
+		0A5AC4BC20BDE6A200964F1A /* MADAPIWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC4BB20BDE6A200964F1A /* MADAPIWrapper.swift */; };
+		0A5AC4BE20BDEECA00964F1A /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC4BD20BDEECA00964F1A /* Posts.swift */; };
+		0A5AC4C220BDF13200964F1A /* MADCategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC4C120BDF13200964F1A /* MADCategoryItem.swift */; };
+		0A5AC4C420BDF1BC00964F1A /* MADPostItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC4C320BDF1BC00964F1A /* MADPostItem.swift */; };
+		0A5AC4C920BDFE7600964F1A /* MADTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC4C820BDFE7600964F1A /* MADTabBarController.swift */; };
+		0A5AC4CB20BDFF7200964F1A /* MADPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC4CA20BDFF7200964F1A /* MADPostsViewController.swift */; };
+		0A5AC4CE20BE006A00964F1A /* MADHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC4CD20BE006A00964F1A /* MADHomeViewController.swift */; };
+		0A5AC4D020BE00AB00964F1A /* MADPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC4CF20BE00AB00964F1A /* MADPhotoViewController.swift */; };
+		0A5AC4D220BE00B800964F1A /* MADInterviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC4D120BE00B800964F1A /* MADInterviewsViewController.swift */; };
+		0A5AC4D520BE013400964F1A /* MADVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC4D420BE013400964F1A /* MADVideoViewController.swift */; };
+		0A5AC4D720BE01B900964F1A /* MADNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC4D620BE01B900964F1A /* MADNavigationViewController.swift */; };
+		0A5AC4D920BE02BB00964F1A /* MADMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC4D820BE02BB00964F1A /* MADMoreViewController.swift */; };
+		0A5AC4E620BE0B1000964F1A /* PostUpdatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC4E520BE0B1000964F1A /* PostUpdatable.swift */; };
+		0A5AC4E920BE0B4D00964F1A /* MADInterviewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC4E720BE0B4D00964F1A /* MADInterviewCollectionViewCell.swift */; };
+		0A5AC4ED20BE0B6300964F1A /* MADPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC4EB20BE0B6300964F1A /* MADPhotoCollectionViewCell.swift */; };
+		0A5AC4F120BE0B7900964F1A /* MADGalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC4EF20BE0B7900964F1A /* MADGalleryCollectionViewCell.swift */; };
+		0A5AC4F520BE0B8800964F1A /* MADVideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC4F320BE0B8800964F1A /* MADVideoCollectionViewCell.swift */; };
+		0A5AC4F920BE0B9600964F1A /* MADArticleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC4F720BE0B9600964F1A /* MADArticleCollectionViewCell.swift */; };
+		0A5AC4FF20BE105D00964F1A /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A5AC4FC20BE105D00964F1A /* Lato-Regular.ttf */; };
+		0A5AC50020BE105D00964F1A /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A5AC4FD20BE105D00964F1A /* Lato-Light.ttf */; };
+		0A5AC50120BE105D00964F1A /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A5AC4FE20BE105D00964F1A /* Lato-Bold.ttf */; };
+		0A5AC50520BE126200964F1A /* MADPostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC50420BE126200964F1A /* MADPostCollectionViewCell.swift */; };
+		0A5AC50720BE13D600964F1A /* MADPostsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC50620BE13D600964F1A /* MADPostsCollectionViewController.swift */; };
+		0A5AC50A20BE145500964F1A /* MADCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC50920BE145500964F1A /* MADCollectionView.swift */; };
+		0A5AC50C20BE2BC300964F1A /* MADLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC50B20BE2BC300964F1A /* MADLabel.swift */; };
+		0A5AC50E20BE2C0F00964F1A /* MADImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC50D20BE2C0F00964F1A /* MADImageView.swift */; };
+		0A5AC51020BE2C4C00964F1A /* MADView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC50F20BE2C4C00964F1A /* MADView.swift */; };
+		0A5AC51220BE369700964F1A /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC51120BE369700964F1A /* UIFont+Extension.swift */; };
+		0A5AC51620BE9FFB00964F1A /* MADArticleLoadingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC51520BE9FFB00964F1A /* MADArticleLoadingCollectionViewCell.swift */; };
+		0A5AC51820BEA00C00964F1A /* MADBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC51720BEA00C00964F1A /* MADBaseCollectionViewCell.swift */; };
+		0A5AC51A20BEA0D900964F1A /* MADBaseLoadingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC51920BEA0D900964F1A /* MADBaseLoadingCollectionViewCell.swift */; };
+		0A5AC51C20BEA5FA00964F1A /* MADLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC51B20BEA5FA00964F1A /* MADLoadingView.swift */; };
+		0A5AC51F20BEA9F200964F1A /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC51E20BEA9F200964F1A /* CGFloat+Extension.swift */; };
+		0A5AC52320BEAEB600964F1A /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AC52220BEAEB600964F1A /* UIImageView+Extension.swift */; };
+		0A60F8FA2114E26E005EC91B /* ColorUpdatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A60F8F92114E26E005EC91B /* ColorUpdatable.swift */; };
+		0A60F8FC2115A5F9005EC91B /* SearchEnabledPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A60F8FB2115A5F9005EC91B /* SearchEnabledPage.swift */; };
+		0A60F8FF2115AAED005EC91B /* MADSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A60F8FE2115AAED005EC91B /* MADSearchViewController.swift */; };
+		0A60F9082115D217005EC91B /* RecentSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A60F9072115D217005EC91B /* RecentSearchView.swift */; };
+		0A60F90A2115D289005EC91B /* MADSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A60F9092115D289005EC91B /* MADSearchBar.swift */; };
+		0A65AAE920F9574800A09166 /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A65AAE820F9574800A09166 /* UserPreferences.swift */; };
+		0A785B482189CEDD00C2656B /* AppInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A785B472189CEDD00C2656B /* AppInit.swift */; };
+		0A785B4B2189D8FA00C2656B /* ReloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A785B4A2189D8FA00C2656B /* ReloadViewController.swift */; };
+		0A785B4D2189DD8A00C2656B /* MADHighlightedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A785B4C2189DD8A00C2656B /* MADHighlightedButton.swift */; };
+		0A78BC062111011300076F52 /* AudioControllerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A78BC052111011300076F52 /* AudioControllerPage.swift */; };
+		0A8AB02C2113ADC800E2F8D7 /* SeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AB02B2113ADC800E2F8D7 /* SeekView.swift */; };
+		0A8FE62A210CD7CB0052A8FD /* AVPlayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8FE629210CD7CB0052A8FD /* AVPlayer+Extension.swift */; };
+		0A92E04A20F694B200E4E96F /* CollectionViewUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A92E04920F694B200E4E96F /* CollectionViewUpdater.swift */; };
+		0A92E04C20F6AE0D00E4E96F /* AnimatableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A92E04B20F6AE0D00E4E96F /* AnimatableCell.swift */; };
+		0AAB612F220CCEA1004F62CE /* MADSearchNavigationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB612E220CCEA1004F62CE /* MADSearchNavigationAnimator.swift */; };
+		0ABC94E3211789D5001EE845 /* MADPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC94E2211789D5001EE845 /* MADPopoverViewController.swift */; };
+		0ABC94E521178AB9001EE845 /* MADThemePopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC94E421178AB9001EE845 /* MADThemePopoverViewController.swift */; };
+		0ABC94E82117A75C001EE845 /* MADOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC94E72117A75C001EE845 /* MADOptionsView.swift */; };
+		0ABC94EA2117BD2F001EE845 /* MADOptionsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC94E92117BD2F001EE845 /* MADOptionsButton.swift */; };
+		0ABC94EC2117CD1B001EE845 /* MADLinkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC94EB2117CD1B001EE845 /* MADLinkButton.swift */; };
+		0AC9F82E20BF0A45008FBFA4 /* MADSimpleAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC9F82D20BF0A45008FBFA4 /* MADSimpleAPI.swift */; };
+		0AC9F83020BF0DB1008FBFA4 /* MADSimpleAPIWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC9F82F20BF0DB1008FBFA4 /* MADSimpleAPIWrapper.swift */; };
+		0AC9F83320BF1D3C008FBFA4 /* TabbedPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC9F83220BF1D3C008FBFA4 /* TabbedPage.swift */; };
+		0AC9F83520BF2432008FBFA4 /* MADPhotoLoadingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC9F83420BF2432008FBFA4 /* MADPhotoLoadingCollectionViewCell.swift */; };
+		0AD1A9D420BDD2E200260AFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD1A9D320BDD2E200260AFC /* AppDelegate.swift */; };
+		0AD1A9D620BDD2E200260AFC /* MADBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD1A9D520BDD2E200260AFC /* MADBaseViewController.swift */; };
+		0AD1A9DB20BDD2E300260AFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD1A9DA20BDD2E300260AFC /* Assets.xcassets */; };
+		0AD1A9DE20BDD2E300260AFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD1A9DC20BDD2E300260AFC /* LaunchScreen.storyboard */; };
+		0AD9598E2187404700833C97 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD9598D2187404700833C97 /* Collection+Extension.swift */; };
+		0AD959902187485C00833C97 /* MADWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD9598F2187485C00833C97 /* MADWebView.swift */; };
+		0AD959942187789C00833C97 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD959932187789C00833C97 /* UIView+Extension.swift */; };
+		0AD959972187798500833C97 /* MADPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD959962187798500833C97 /* MADPlayerViewController.swift */; };
+		0AD9C5F020FE7F81008B550C /* MADNavigationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD9C5EF20FE7F81008B550C /* MADNavigationInteractor.swift */; };
+		0AF9D6A520BEE795005790E4 /* MADButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9D6A420BEE795005790E4 /* MADButton.swift */; };
+		0AF9D6A720BEE7AD005790E4 /* MADPlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9D6A620BEE7AD005790E4 /* MADPlayButton.swift */; };
+		0AF9D6A920BEFD1F005790E4 /* MADInterviewLoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9D6A820BEFD1F005790E4 /* MADInterviewLoadingCell.swift */; };
+		0F40057F9D34136362E1D1EF /* Pods_Madpac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E57866AE293A1BE8D809BDB5 /* Pods_Madpac.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A02BF4721051A7200FB2EB1 /* MADVideoControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADVideoControlsView.swift; sourceTree = "<group>"; };
+		0A02BF4A2105239C00FB2EB1 /* MADProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADProgressBar.swift; sourceTree = "<group>"; };
+		0A02BF4C21052EB700FB2EB1 /* MADBasicNavigationAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADBasicNavigationAnimator.swift; sourceTree = "<group>"; };
+		0A02BF4E21052EE200FB2EB1 /* PopAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopAnimator.swift; sourceTree = "<group>"; };
+		0A0790ED21067D3E00148139 /* MADVolumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADVolumeView.swift; sourceTree = "<group>"; };
+		0A0CF6D120F9890F003F7136 /* MADStartupOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADStartupOverlay.swift; sourceTree = "<group>"; };
+		0A0E78922110F2D200E0283C /* MediaSessionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaSessionHelper.swift; sourceTree = "<group>"; };
+		0A1241C920FA078B00006A23 /* MADLoadingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADLoadingOverlay.swift; sourceTree = "<group>"; };
+		0A1241CB20FA5BCE00006A23 /* TopBarPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarPage.swift; sourceTree = "<group>"; };
+		0A1241CD20FA5D1600006A23 /* MADTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADTopView.swift; sourceTree = "<group>"; };
+		0A1241D020FA66BF00006A23 /* PostCategoryTopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCategoryTopBarView.swift; sourceTree = "<group>"; };
+		0A1241D620FA6A2000006A23 /* MADSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADSegmentedControl.swift; sourceTree = "<group>"; };
+		0A1241DA20FA6A9800006A23 /* MADSegmentedControlCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADSegmentedControlCollectionViewCell.swift; sourceTree = "<group>"; };
+		0A1241DC20FA74C500006A23 /* MADRoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADRoundView.swift; sourceTree = "<group>"; };
+		0A1241DF20FA9F7100006A23 /* MADVideoTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADVideoTopView.swift; sourceTree = "<group>"; };
+		0A1241E220FAA94A00006A23 /* MoreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreCollectionViewCell.swift; sourceTree = "<group>"; };
+		0A1241E420FAAD4A00006A23 /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
+		0A1241EA20FAB46200006A23 /* MADVideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADVideoPlayerView.swift; sourceTree = "<group>"; };
+		0A1241EC20FAC96A00006A23 /* MADVideoBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADVideoBottomView.swift; sourceTree = "<group>"; };
+		0A1241EE20FB65C000006A23 /* MADBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADBlurView.swift; sourceTree = "<group>"; };
+		0A1241F020FB83A800006A23 /* MADDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADDetailViewController.swift; sourceTree = "<group>"; };
+		0A1241F320FB948700006A23 /* MADTransitioningViewNavigationAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADTransitioningViewNavigationAnimator.swift; sourceTree = "<group>"; };
+		0A1241F520FB9BE300006A23 /* NavigationTransitioningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTransitioningView.swift; sourceTree = "<group>"; };
+		0A1241FA20FBAFEF00006A23 /* MADDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADDetailHeaderView.swift; sourceTree = "<group>"; };
+		0A1241FC20FBD91200006A23 /* HTMLHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLHelper.swift; sourceTree = "<group>"; };
+		0A1241FE20FBEB1E00006A23 /* MADDetailVideoHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADDetailVideoHeaderView.swift; sourceTree = "<group>"; };
+		0A12420120FBEC9B00006A23 /* MADVideoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADVideoDetailViewController.swift; sourceTree = "<group>"; };
+		0A20B070210E08B800738D9F /* MADPlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MADPlayerManager.swift; path = ../../../../../../Kevin/Triple/MADPAC/MADPAC/Classes/Helpers/MADPlayerManager.swift; sourceTree = "<group>"; };
+		0A20B072210E0A5000738D9F /* MADPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MADPlayer.swift; path = ../../../../../../Kevin/Triple/MADPAC/MADPAC/Classes/UIElements/MADPlayer.swift; sourceTree = "<group>"; };
+		0A20B074210E3E8900738D9F /* MADConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MADConstants.swift; path = ../../../../../../Kevin/Triple/MADPAC/MADPAC/Classes/Helpers/MADConstants.swift; sourceTree = "<group>"; };
+		0A2E898420FD3A7A0030EA0E /* TransformingVideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingVideoPlayerView.swift; sourceTree = "<group>"; };
+		0A310B6921037AF2001E0CEB /* UITabBarController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBarController+Extension.swift"; sourceTree = "<group>"; };
+		0A310B6B21039D51001E0CEB /* MADArticleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADArticleDetailViewController.swift; sourceTree = "<group>"; };
+		0A310B6D21039E9D001E0CEB /* MADVideoTabDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADVideoTabDetailViewController.swift; sourceTree = "<group>"; };
+		0A310B6F2103A78D001E0CEB /* MADVideoTabNavigationAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADVideoTabNavigationAnimator.swift; sourceTree = "<group>"; };
+		0A310B712103EE18001E0CEB /* TransformingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingImageView.swift; sourceTree = "<group>"; };
+		0A310B752104B1D0001E0CEB /* MADLoadingBottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADLoadingBottomBar.swift; sourceTree = "<group>"; };
+		0A310B772104D872001E0CEB /* HapticFeedbackHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackHelper.swift; sourceTree = "<group>"; };
+		0A40736E20BF3199004FBA69 /* MADVideoType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADVideoType.swift; sourceTree = "<group>"; };
+		0A45CC0520BF2F580075F6F2 /* YoutubeHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeHelper.swift; sourceTree = "<group>"; };
+		0A45CC0720BF2FC20075F6F2 /* MADVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADVideoView.swift; sourceTree = "<group>"; };
+		0A52C6AB214577FB00DCE101 /* MADVideoArticleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MADVideoArticleCollectionViewCell.swift; path = ../../../../../../../../Kevin/Triple/MADPAC/MADPAC/Classes/CollectionViewCells/Articles/PostCells/MADVideoArticleCollectionViewCell.swift; sourceTree = "<group>"; };
+		0A52C6AE2145787300DCE101 /* MADTextBlurOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MADTextBlurOverlay.swift; path = ../../../../../../../Kevin/Triple/MADPAC/MADPAC/Classes/UIElements/TextBlurOverlay/MADTextBlurOverlay.swift; sourceTree = "<group>"; };
+		0A5AC4AA20BDD63F00964F1A /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		0A5AC4AD20BDD87000964F1A /* MADAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADAPI.swift; sourceTree = "<group>"; };
+		0A5AC4AF20BDD9B400964F1A /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		0A5AC4B120BDDC4800964F1A /* MADLaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADLaunchViewController.swift; sourceTree = "<group>"; };
+		0A5AC4B620BDDDC300964F1A /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		0A5AC4B920BDDFC200964F1A /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		0A5AC4BB20BDE6A200964F1A /* MADAPIWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADAPIWrapper.swift; sourceTree = "<group>"; };
+		0A5AC4BD20BDEECA00964F1A /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		0A5AC4C120BDF13200964F1A /* MADCategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADCategoryItem.swift; sourceTree = "<group>"; };
+		0A5AC4C320BDF1BC00964F1A /* MADPostItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADPostItem.swift; sourceTree = "<group>"; };
+		0A5AC4C820BDFE7600964F1A /* MADTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADTabBarController.swift; sourceTree = "<group>"; };
+		0A5AC4CA20BDFF7200964F1A /* MADPostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADPostsViewController.swift; sourceTree = "<group>"; };
+		0A5AC4CD20BE006A00964F1A /* MADHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADHomeViewController.swift; sourceTree = "<group>"; };
+		0A5AC4CF20BE00AB00964F1A /* MADPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADPhotoViewController.swift; sourceTree = "<group>"; };
+		0A5AC4D120BE00B800964F1A /* MADInterviewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADInterviewsViewController.swift; sourceTree = "<group>"; };
+		0A5AC4D420BE013400964F1A /* MADVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADVideoViewController.swift; sourceTree = "<group>"; };
+		0A5AC4D620BE01B900964F1A /* MADNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADNavigationViewController.swift; sourceTree = "<group>"; };
+		0A5AC4D820BE02BB00964F1A /* MADMoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADMoreViewController.swift; sourceTree = "<group>"; };
+		0A5AC4E520BE0B1000964F1A /* PostUpdatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostUpdatable.swift; sourceTree = "<group>"; };
+		0A5AC4E720BE0B4D00964F1A /* MADInterviewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADInterviewCollectionViewCell.swift; sourceTree = "<group>"; };
+		0A5AC4EB20BE0B6300964F1A /* MADPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		0A5AC4EF20BE0B7900964F1A /* MADGalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADGalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		0A5AC4F320BE0B8800964F1A /* MADVideoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADVideoCollectionViewCell.swift; sourceTree = "<group>"; };
+		0A5AC4F720BE0B9600964F1A /* MADArticleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADArticleCollectionViewCell.swift; sourceTree = "<group>"; };
+		0A5AC4FC20BE105D00964F1A /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		0A5AC4FD20BE105D00964F1A /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		0A5AC4FE20BE105D00964F1A /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		0A5AC50420BE126200964F1A /* MADPostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADPostCollectionViewCell.swift; sourceTree = "<group>"; };
+		0A5AC50620BE13D600964F1A /* MADPostsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADPostsCollectionViewController.swift; sourceTree = "<group>"; };
+		0A5AC50920BE145500964F1A /* MADCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADCollectionView.swift; sourceTree = "<group>"; };
+		0A5AC50B20BE2BC300964F1A /* MADLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADLabel.swift; sourceTree = "<group>"; };
+		0A5AC50D20BE2C0F00964F1A /* MADImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADImageView.swift; sourceTree = "<group>"; };
+		0A5AC50F20BE2C4C00964F1A /* MADView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADView.swift; sourceTree = "<group>"; };
+		0A5AC51120BE369700964F1A /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		0A5AC51520BE9FFB00964F1A /* MADArticleLoadingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADArticleLoadingCollectionViewCell.swift; sourceTree = "<group>"; };
+		0A5AC51720BEA00C00964F1A /* MADBaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADBaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		0A5AC51920BEA0D900964F1A /* MADBaseLoadingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADBaseLoadingCollectionViewCell.swift; sourceTree = "<group>"; };
+		0A5AC51B20BEA5FA00964F1A /* MADLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADLoadingView.swift; sourceTree = "<group>"; };
+		0A5AC51E20BEA9F200964F1A /* CGFloat+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extension.swift"; sourceTree = "<group>"; };
+		0A5AC52220BEAEB600964F1A /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		0A60F8F92114E26E005EC91B /* ColorUpdatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ColorUpdatable.swift; path = ../../../../../../Kevin/Triple/MADPAC/MADPAC/Classes/Protocols/ColorUpdatable.swift; sourceTree = "<group>"; };
+		0A60F8FB2115A5F9005EC91B /* SearchEnabledPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchEnabledPage.swift; path = ../../../../../../Kevin/Triple/MADPAC/MADPAC/Classes/Protocols/SearchEnabledPage.swift; sourceTree = "<group>"; };
+		0A60F8FE2115AAED005EC91B /* MADSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MADSearchViewController.swift; path = ../../../../../../../Kevin/Triple/MADPAC/MADPAC/Classes/ViewControllers/Search/MADSearchViewController.swift; sourceTree = "<group>"; };
+		0A60F9072115D217005EC91B /* RecentSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecentSearchView.swift; path = ../../../../../../../../Kevin/Triple/MADPAC/MADPAC/Classes/UIElements/Search/RecentSearchView/RecentSearchView.swift; sourceTree = "<group>"; };
+		0A60F9092115D289005EC91B /* MADSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MADSearchBar.swift; path = ../../../../../../../../Kevin/Triple/MADPAC/MADPAC/Classes/UIElements/Search/SearchBar/MADSearchBar.swift; sourceTree = "<group>"; };
+		0A65AAE820F9574800A09166 /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+		0A785B472189CEDD00C2656B /* AppInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppInit.swift; path = ../../../../../../../Kevin/Triple/MADPAC/MADPAC/Classes/API/Models/AppInit.swift; sourceTree = "<group>"; };
+		0A785B4A2189D8FA00C2656B /* ReloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReloadViewController.swift; path = ../../../../../../../Kevin/Triple/MADPAC/MADPAC/Classes/ViewControllers/ReloadViewController/ReloadViewController.swift; sourceTree = "<group>"; };
+		0A785B4C2189DD8A00C2656B /* MADHighlightedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MADHighlightedButton.swift; path = ../../../../../../Kevin/Triple/MADPAC/MADPAC/Classes/UIElements/MADHighlightedButton.swift; sourceTree = "<group>"; };
+		0A78BC052111011300076F52 /* AudioControllerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioControllerPage.swift; sourceTree = "<group>"; };
+		0A8AB02B2113ADC800E2F8D7 /* SeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SeekView.swift; path = ../../../../../../../Kevin/Triple/MADPAC/MADPAC/Classes/UIElements/SeekView/SeekView.swift; sourceTree = "<group>"; };
+		0A8FE629210CD7CB0052A8FD /* AVPlayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Extension.swift"; sourceTree = "<group>"; };
+		0A92E04920F694B200E4E96F /* CollectionViewUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewUpdater.swift; sourceTree = "<group>"; };
+		0A92E04B20F6AE0D00E4E96F /* AnimatableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableCell.swift; sourceTree = "<group>"; };
+		0AAB612E220CCEA1004F62CE /* MADSearchNavigationAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MADSearchNavigationAnimator.swift; sourceTree = "<group>"; };
+		0ABC94E2211789D5001EE845 /* MADPopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADPopoverViewController.swift; sourceTree = "<group>"; };
+		0ABC94E421178AB9001EE845 /* MADThemePopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADThemePopoverViewController.swift; sourceTree = "<group>"; };
+		0ABC94E72117A75C001EE845 /* MADOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADOptionsView.swift; sourceTree = "<group>"; };
+		0ABC94E92117BD2F001EE845 /* MADOptionsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADOptionsButton.swift; sourceTree = "<group>"; };
+		0ABC94EB2117CD1B001EE845 /* MADLinkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADLinkButton.swift; sourceTree = "<group>"; };
+		0AC9F82D20BF0A45008FBFA4 /* MADSimpleAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADSimpleAPI.swift; sourceTree = "<group>"; };
+		0AC9F82F20BF0DB1008FBFA4 /* MADSimpleAPIWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADSimpleAPIWrapper.swift; sourceTree = "<group>"; };
+		0AC9F83220BF1D3C008FBFA4 /* TabbedPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedPage.swift; sourceTree = "<group>"; };
+		0AC9F83420BF2432008FBFA4 /* MADPhotoLoadingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADPhotoLoadingCollectionViewCell.swift; sourceTree = "<group>"; };
+		0AD1A9D020BDD2E200260AFC /* Madpac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Madpac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD1A9D320BDD2E200260AFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0AD1A9D520BDD2E200260AFC /* MADBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADBaseViewController.swift; sourceTree = "<group>"; };
+		0AD1A9DA20BDD2E300260AFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AD1A9DD20BDD2E300260AFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AD1A9DF20BDD2E300260AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD9598D2187404700833C97 /* Collection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Collection+Extension.swift"; path = "../../../../../../Kevin/Triple/MADPAC/MADPAC/Classes/Extensions/Collection+Extension.swift"; sourceTree = "<group>"; };
+		0AD9598F2187485C00833C97 /* MADWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MADWebView.swift; path = ../../../../../../Kevin/Triple/MADPAC/MADPAC/Classes/UIElements/MADWebView.swift; sourceTree = "<group>"; };
+		0AD959932187789C00833C97 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "../../../../../../Kevin/Triple/MADPAC/MADPAC/Classes/Extensions/UIView+Extension.swift"; sourceTree = "<group>"; };
+		0AD959962187798500833C97 /* MADPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MADPlayerViewController.swift; path = ../../../../../../../Kevin/Triple/MADPAC/MADPAC/Classes/ViewControllers/Player/MADPlayerViewController.swift; sourceTree = "<group>"; };
+		0AD9C5EF20FE7F81008B550C /* MADNavigationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADNavigationInteractor.swift; sourceTree = "<group>"; };
+		0AF9D6A420BEE795005790E4 /* MADButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADButton.swift; sourceTree = "<group>"; };
+		0AF9D6A620BEE7AD005790E4 /* MADPlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADPlayButton.swift; sourceTree = "<group>"; };
+		0AF9D6A820BEFD1F005790E4 /* MADInterviewLoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADInterviewLoadingCell.swift; sourceTree = "<group>"; };
+		409736423FB05D93ABBCBD14 /* Pods-Madpac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Madpac.release.xcconfig"; path = "Pods/Target Support Files/Pods-Madpac/Pods-Madpac.release.xcconfig"; sourceTree = "<group>"; };
+		C6C5659BE800B87EFB5B36DC /* Pods-Madpac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Madpac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Madpac/Pods-Madpac.debug.xcconfig"; sourceTree = "<group>"; };
+		E57866AE293A1BE8D809BDB5 /* Pods_Madpac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Madpac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AD1A9CD20BDD2E200260AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F40057F9D34136362E1D1EF /* Pods_Madpac.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A02BF492105238C00FB2EB1 /* ProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				0A02BF4A2105239C00FB2EB1 /* MADProgressBar.swift */,
+			);
+			path = ProgressBar;
+			sourceTree = "<group>";
+		};
+		0A0790EC21067D3000148139 /* VolumeView */ = {
+			isa = PBXGroup;
+			children = (
+				0A0790ED21067D3E00148139 /* MADVolumeView.swift */,
+			);
+			path = VolumeView;
+			sourceTree = "<group>";
+		};
+		0A1241CF20FA66AF00006A23 /* TopBarViews */ = {
+			isa = PBXGroup;
+			children = (
+				0A1241DE20FA9F5F00006A23 /* VideoTopView */,
+				0A1241D220FA684700006A23 /* PostCategory */,
+			);
+			path = TopBarViews;
+			sourceTree = "<group>";
+		};
+		0A1241D220FA684700006A23 /* PostCategory */ = {
+			isa = PBXGroup;
+			children = (
+				0A1241D020FA66BF00006A23 /* PostCategoryTopBarView.swift */,
+			);
+			path = PostCategory;
+			sourceTree = "<group>";
+		};
+		0A1241D820FA6A6F00006A23 /* SegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				0A1241D920FA6A7A00006A23 /* CollectionViewCells */,
+				0A1241D620FA6A2000006A23 /* MADSegmentedControl.swift */,
+			);
+			path = SegmentedControl;
+			sourceTree = "<group>";
+		};
+		0A1241D920FA6A7A00006A23 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				0A1241DA20FA6A9800006A23 /* MADSegmentedControlCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		0A1241DE20FA9F5F00006A23 /* VideoTopView */ = {
+			isa = PBXGroup;
+			children = (
+				0A1241DF20FA9F7100006A23 /* MADVideoTopView.swift */,
+				0A1241EC20FAC96A00006A23 /* MADVideoBottomView.swift */,
+			);
+			path = VideoTopView;
+			sourceTree = "<group>";
+		};
+		0A1241E120FAA91D00006A23 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				0A1241E220FAA94A00006A23 /* MoreCollectionViewCell.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		0A1241F220FB947400006A23 /* NavigationAnimators */ = {
+			isa = PBXGroup;
+			children = (
+				0AAB6130220CCEB1004F62CE /* Interactors */,
+				0AAB612E220CCEA1004F62CE /* MADSearchNavigationAnimator.swift */,
+				0A1241F320FB948700006A23 /* MADTransitioningViewNavigationAnimator.swift */,
+				0A310B6F2103A78D001E0CEB /* MADVideoTabNavigationAnimator.swift */,
+				0A02BF4C21052EB700FB2EB1 /* MADBasicNavigationAnimator.swift */,
+			);
+			path = NavigationAnimators;
+			sourceTree = "<group>";
+		};
+		0A1241F920FBAFDF00006A23 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				0A1241FA20FBAFEF00006A23 /* MADDetailHeaderView.swift */,
+				0A1241FE20FBEB1E00006A23 /* MADDetailVideoHeaderView.swift */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		0A12420020FBEC8D00006A23 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				0A12420120FBEC9B00006A23 /* MADVideoDetailViewController.swift */,
+				0A310B6B21039D51001E0CEB /* MADArticleDetailViewController.swift */,
+				0A1241F020FB83A800006A23 /* MADDetailViewController.swift */,
+				0A310B6D21039E9D001E0CEB /* MADVideoTabDetailViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		0A2E898320FD3A590030EA0E /* TransformingVideoView */ = {
+			isa = PBXGroup;
+			children = (
+				0A2E898420FD3A7A0030EA0E /* TransformingVideoPlayerView.swift */,
+			);
+			path = TransformingVideoView;
+			sourceTree = "<group>";
+		};
+		0A310B732103EE1C001E0CEB /* TransformingImageView */ = {
+			isa = PBXGroup;
+			children = (
+				0A310B712103EE18001E0CEB /* TransformingImageView.swift */,
+			);
+			path = TransformingImageView;
+			sourceTree = "<group>";
+		};
+		0A310B742104B1B4001E0CEB /* LoadingBottomBar */ = {
+			isa = PBXGroup;
+			children = (
+				0A310B752104B1D0001E0CEB /* MADLoadingBottomBar.swift */,
+			);
+			path = LoadingBottomBar;
+			sourceTree = "<group>";
+		};
+		0A45CC0420BF2F410075F6F2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0A45CC0520BF2F580075F6F2 /* YoutubeHelper.swift */,
+				0A65AAE820F9574800A09166 /* UserPreferences.swift */,
+				0A1241FC20FBD91200006A23 /* HTMLHelper.swift */,
+				0A310B772104D872001E0CEB /* HapticFeedbackHelper.swift */,
+				0A20B070210E08B800738D9F /* MADPlayerManager.swift */,
+				0A20B074210E3E8900738D9F /* MADConstants.swift */,
+				0A0E78922110F2D200E0283C /* MediaSessionHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0A52C6AD2145786400DCE101 /* TextBlurOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				0A52C6AE2145787300DCE101 /* MADTextBlurOverlay.swift */,
+			);
+			path = TextBlurOverlay;
+			sourceTree = "<group>";
+		};
+		0A5AC4A620BDD56D00964F1A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0A1241F220FB947400006A23 /* NavigationAnimators */,
+				0A92E04820F6949900E4E96F /* CollectionViewUpdater */,
+				0A45CC0420BF2F410075F6F2 /* Helpers */,
+				0A5AC50820BE143E00964F1A /* UIElements */,
+				0A5AC4E420BE0AFB00964F1A /* Protocols */,
+				0A5AC4DE20BE0A9500964F1A /* CollectionViewCells */,
+				0A5AC4AC20BDD86300964F1A /* API */,
+				0A5AC4A920BDD63200964F1A /* Extensions */,
+				0A5AC4A720BDD60B00964F1A /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0A5AC4A720BDD60B00964F1A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A785B492189D8E500C2656B /* ReloadViewController */,
+				0AD959952187796D00833C97 /* Player */,
+				0ABC94E02117899A001EE845 /* Popover */,
+				0A60F8FD2115AAD7005EC91B /* Search */,
+				0A12420020FBEC8D00006A23 /* Detail */,
+				0A5AC4CC20BE005E00964F1A /* Tabs */,
+				0A5AC4C520BDFE4A00964F1A /* Launch */,
+				0A5AC4A820BDD61400964F1A /* Base */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0A5AC4A820BDD61400964F1A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0A5AC4C720BDFE5B00964F1A /* Tab */,
+				0AD1A9D520BDD2E200260AFC /* MADBaseViewController.swift */,
+				0A5AC4CA20BDFF7200964F1A /* MADPostsViewController.swift */,
+				0A5AC4D620BE01B900964F1A /* MADNavigationViewController.swift */,
+				0A5AC50620BE13D600964F1A /* MADPostsCollectionViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0A5AC4A920BDD63200964F1A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0A5AC4AA20BDD63F00964F1A /* UIColor+Extension.swift */,
+				0A5AC4B620BDDDC300964F1A /* UIViewController+Extension.swift */,
+				0A5AC51120BE369700964F1A /* UIFont+Extension.swift */,
+				0A5AC51E20BEA9F200964F1A /* CGFloat+Extension.swift */,
+				0A5AC52220BEAEB600964F1A /* UIImageView+Extension.swift */,
+				0A1241E420FAAD4A00006A23 /* UserDefaults+Extension.swift */,
+				0A310B6921037AF2001E0CEB /* UITabBarController+Extension.swift */,
+				0A8FE629210CD7CB0052A8FD /* AVPlayer+Extension.swift */,
+				0AD9598D2187404700833C97 /* Collection+Extension.swift */,
+				0AD959932187789C00833C97 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0A5AC4AC20BDD86300964F1A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				0AC9F83120BF0F57008FBFA4 /* TIFNetworkAPI */,
+				0AC9F82C20BF0A36008FBFA4 /* SimpleAPI */,
+				0A5AC4B820BDDFB700964F1A /* Models */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		0A5AC4B820BDDFB700964F1A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0A5AC4C020BDF11E00964F1A /* ViewModels */,
+				0A5AC4B920BDDFC200964F1A /* Categories.swift */,
+				0A5AC4BD20BDEECA00964F1A /* Posts.swift */,
+				0A785B472189CEDD00C2656B /* AppInit.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0A5AC4C020BDF11E00964F1A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0A5AC4C120BDF13200964F1A /* MADCategoryItem.swift */,
+				0A5AC4C320BDF1BC00964F1A /* MADPostItem.swift */,
+				0A40736E20BF3199004FBA69 /* MADVideoType.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0A5AC4C520BDFE4A00964F1A /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				0A5AC4B120BDDC4800964F1A /* MADLaunchViewController.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		0A5AC4C720BDFE5B00964F1A /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				0A5AC4C820BDFE7600964F1A /* MADTabBarController.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		0A5AC4CC20BE005E00964F1A /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				0A5AC4CD20BE006A00964F1A /* MADHomeViewController.swift */,
+				0A5AC4CF20BE00AB00964F1A /* MADPhotoViewController.swift */,
+				0A5AC4D120BE00B800964F1A /* MADInterviewsViewController.swift */,
+				0A5AC4D420BE013400964F1A /* MADVideoViewController.swift */,
+				0A5AC4D820BE02BB00964F1A /* MADMoreViewController.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		0A5AC4DE20BE0A9500964F1A /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				0A1241E120FAA91D00006A23 /* More */,
+				0A65AAE720F947D700A09166 /* Articles */,
+				0A5AC50320BE125500964F1A /* Base */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		0A5AC4E420BE0AFB00964F1A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0A5AC4E520BE0B1000964F1A /* PostUpdatable.swift */,
+				0AC9F83220BF1D3C008FBFA4 /* TabbedPage.swift */,
+				0A92E04B20F6AE0D00E4E96F /* AnimatableCell.swift */,
+				0A1241CB20FA5BCE00006A23 /* TopBarPage.swift */,
+				0A1241F520FB9BE300006A23 /* NavigationTransitioningView.swift */,
+				0A02BF4E21052EE200FB2EB1 /* PopAnimator.swift */,
+				0A78BC052111011300076F52 /* AudioControllerPage.swift */,
+				0A60F8F92114E26E005EC91B /* ColorUpdatable.swift */,
+				0A60F8FB2115A5F9005EC91B /* SearchEnabledPage.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		0A5AC4FB20BE104C00964F1A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0A5AC50220BE108F00964F1A /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0A5AC50220BE108F00964F1A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0A5AC4FE20BE105D00964F1A /* Lato-Bold.ttf */,
+				0A5AC4FD20BE105D00964F1A /* Lato-Light.ttf */,
+				0A5AC4FC20BE105D00964F1A /* Lato-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0A5AC50320BE125500964F1A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0A5AC50420BE126200964F1A /* MADPostCollectionViewCell.swift */,
+				0A5AC51720BEA00C00964F1A /* MADBaseCollectionViewCell.swift */,
+				0A5AC51920BEA0D900964F1A /* MADBaseLoadingCollectionViewCell.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0A5AC50820BE143E00964F1A /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				0A52C6AD2145786400DCE101 /* TextBlurOverlay */,
+				0ABC94E62117A74E001EE845 /* OptionsView */,
+				0A60F9052115D0FB005EC91B /* Search */,
+				0A8AB02A2113ADB400E2F8D7 /* SeekView */,
+				0A0790EC21067D3000148139 /* VolumeView */,
+				0A310B742104B1B4001E0CEB /* LoadingBottomBar */,
+				0A310B732103EE1C001E0CEB /* TransformingImageView */,
+				0A2E898320FD3A590030EA0E /* TransformingVideoView */,
+				0A1241F920FBAFDF00006A23 /* HeaderView */,
+				0A1241D820FA6A6F00006A23 /* SegmentedControl */,
+				0A1241CF20FA66AF00006A23 /* TopBarViews */,
+				0AF9D6A320BEE77D005790E4 /* VideoPlayer */,
+				0A5AC50920BE145500964F1A /* MADCollectionView.swift */,
+				0ABC94EB2117CD1B001EE845 /* MADLinkButton.swift */,
+				0A5AC50B20BE2BC300964F1A /* MADLabel.swift */,
+				0A5AC50D20BE2C0F00964F1A /* MADImageView.swift */,
+				0A5AC50F20BE2C4C00964F1A /* MADView.swift */,
+				0A5AC51B20BEA5FA00964F1A /* MADLoadingView.swift */,
+				0AF9D6A420BEE795005790E4 /* MADButton.swift */,
+				0A0CF6D120F9890F003F7136 /* MADStartupOverlay.swift */,
+				0A1241C920FA078B00006A23 /* MADLoadingOverlay.swift */,
+				0A1241CD20FA5D1600006A23 /* MADTopView.swift */,
+				0A1241DC20FA74C500006A23 /* MADRoundView.swift */,
+				0A1241EE20FB65C000006A23 /* MADBlurView.swift */,
+				0A20B072210E0A5000738D9F /* MADPlayer.swift */,
+				0ABC94E92117BD2F001EE845 /* MADOptionsButton.swift */,
+				0AD9598F2187485C00833C97 /* MADWebView.swift */,
+				0A785B4C2189DD8A00C2656B /* MADHighlightedButton.swift */,
+			);
+			path = UIElements;
+			sourceTree = "<group>";
+		};
+		0A5AC51320BE9FC700964F1A /* PostCells */ = {
+			isa = PBXGroup;
+			children = (
+				0A5AC4E720BE0B4D00964F1A /* MADInterviewCollectionViewCell.swift */,
+				0A5AC4EB20BE0B6300964F1A /* MADPhotoCollectionViewCell.swift */,
+				0A5AC4EF20BE0B7900964F1A /* MADGalleryCollectionViewCell.swift */,
+				0A5AC4F320BE0B8800964F1A /* MADVideoCollectionViewCell.swift */,
+				0A5AC4F720BE0B9600964F1A /* MADArticleCollectionViewCell.swift */,
+				0A52C6AB214577FB00DCE101 /* MADVideoArticleCollectionViewCell.swift */,
+			);
+			path = PostCells;
+			sourceTree = "<group>";
+		};
+		0A5AC51420BE9FD900964F1A /* LoadingCells */ = {
+			isa = PBXGroup;
+			children = (
+				0A5AC51520BE9FFB00964F1A /* MADArticleLoadingCollectionViewCell.swift */,
+				0AF9D6A820BEFD1F005790E4 /* MADInterviewLoadingCell.swift */,
+				0AC9F83420BF2432008FBFA4 /* MADPhotoLoadingCollectionViewCell.swift */,
+			);
+			path = LoadingCells;
+			sourceTree = "<group>";
+		};
+		0A60F8FD2115AAD7005EC91B /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				0A60F8FE2115AAED005EC91B /* MADSearchViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		0A60F9022115B0DE005EC91B /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				0A60F9092115D289005EC91B /* MADSearchBar.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		0A60F9052115D0FB005EC91B /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				0A60F9062115D105005EC91B /* RecentSearchView */,
+				0A60F9022115B0DE005EC91B /* SearchBar */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		0A60F9062115D105005EC91B /* RecentSearchView */ = {
+			isa = PBXGroup;
+			children = (
+				0A60F9072115D217005EC91B /* RecentSearchView.swift */,
+			);
+			path = RecentSearchView;
+			sourceTree = "<group>";
+		};
+		0A65AAE720F947D700A09166 /* Articles */ = {
+			isa = PBXGroup;
+			children = (
+				0A5AC51420BE9FD900964F1A /* LoadingCells */,
+				0A5AC51320BE9FC700964F1A /* PostCells */,
+			);
+			path = Articles;
+			sourceTree = "<group>";
+		};
+		0A785B492189D8E500C2656B /* ReloadViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0A785B4A2189D8FA00C2656B /* ReloadViewController.swift */,
+			);
+			path = ReloadViewController;
+			sourceTree = "<group>";
+		};
+		0A8AB02A2113ADB400E2F8D7 /* SeekView */ = {
+			isa = PBXGroup;
+			children = (
+				0A8AB02B2113ADC800E2F8D7 /* SeekView.swift */,
+			);
+			path = SeekView;
+			sourceTree = "<group>";
+		};
+		0A92E04820F6949900E4E96F /* CollectionViewUpdater */ = {
+			isa = PBXGroup;
+			children = (
+				0A92E04920F694B200E4E96F /* CollectionViewUpdater.swift */,
+			);
+			path = CollectionViewUpdater;
+			sourceTree = "<group>";
+		};
+		0AAB6130220CCEB1004F62CE /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				0AD9C5EF20FE7F81008B550C /* MADNavigationInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		0ABC94E02117899A001EE845 /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				0ABC94E2211789D5001EE845 /* MADPopoverViewController.swift */,
+				0ABC94E12117899F001EE845 /* Themes */,
+			);
+			path = Popover;
+			sourceTree = "<group>";
+		};
+		0ABC94E12117899F001EE845 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				0ABC94E421178AB9001EE845 /* MADThemePopoverViewController.swift */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		0ABC94E62117A74E001EE845 /* OptionsView */ = {
+			isa = PBXGroup;
+			children = (
+				0ABC94E72117A75C001EE845 /* MADOptionsView.swift */,
+			);
+			path = OptionsView;
+			sourceTree = "<group>";
+		};
+		0AC9F82C20BF0A36008FBFA4 /* SimpleAPI */ = {
+			isa = PBXGroup;
+			children = (
+				0AC9F82D20BF0A45008FBFA4 /* MADSimpleAPI.swift */,
+				0AC9F82F20BF0DB1008FBFA4 /* MADSimpleAPIWrapper.swift */,
+			);
+			path = SimpleAPI;
+			sourceTree = "<group>";
+		};
+		0AC9F83120BF0F57008FBFA4 /* TIFNetworkAPI */ = {
+			isa = PBXGroup;
+			children = (
+				0A5AC4AD20BDD87000964F1A /* MADAPI.swift */,
+				0A5AC4AF20BDD9B400964F1A /* Environment.swift */,
+				0A5AC4BB20BDE6A200964F1A /* MADAPIWrapper.swift */,
+			);
+			path = TIFNetworkAPI;
+			sourceTree = "<group>";
+		};
+		0AD1A9C720BDD2E200260AFC = {
+			isa = PBXGroup;
+			children = (
+				0AD1A9D220BDD2E200260AFC /* MADPAC */,
+				0AD1A9D120BDD2E200260AFC /* Products */,
+				535B829790BFC6D304CB4899 /* Pods */,
+				A8FB5457C1D30389F1241F2F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0AD1A9D120BDD2E200260AFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AD1A9D020BDD2E200260AFC /* Madpac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AD1A9D220BDD2E200260AFC /* MADPAC */ = {
+			isa = PBXGroup;
+			children = (
+				0A5AC4FB20BE104C00964F1A /* Resources */,
+				0A5AC4A620BDD56D00964F1A /* Classes */,
+				0AD1A9D320BDD2E200260AFC /* AppDelegate.swift */,
+				0AD1A9DA20BDD2E300260AFC /* Assets.xcassets */,
+				0AD1A9DC20BDD2E300260AFC /* LaunchScreen.storyboard */,
+				0AD1A9DF20BDD2E300260AFC /* Info.plist */,
+			);
+			path = MADPAC;
+			sourceTree = "<group>";
+		};
+		0AD959952187796D00833C97 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				0AD959962187798500833C97 /* MADPlayerViewController.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		0AF9D6A320BEE77D005790E4 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				0A02BF492105238C00FB2EB1 /* ProgressBar */,
+				0AF9D6A620BEE7AD005790E4 /* MADPlayButton.swift */,
+				0A45CC0720BF2FC20075F6F2 /* MADVideoView.swift */,
+				0A1241EA20FAB46200006A23 /* MADVideoPlayerView.swift */,
+				0A02BF4721051A7200FB2EB1 /* MADVideoControlsView.swift */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		535B829790BFC6D304CB4899 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6C5659BE800B87EFB5B36DC /* Pods-Madpac.debug.xcconfig */,
+				409736423FB05D93ABBCBD14 /* Pods-Madpac.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8FB5457C1D30389F1241F2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E57866AE293A1BE8D809BDB5 /* Pods_Madpac.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AD1A9CF20BDD2E200260AFC /* Madpac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AD1A9E220BDD2E300260AFC /* Build configuration list for PBXNativeTarget "Madpac" */;
+			buildPhases = (
+				2901FC79FA6BC2551222C061 /* [CP] Check Pods Manifest.lock */,
+				0AD1A9CC20BDD2E200260AFC /* Sources */,
+				0AD1A9CD20BDD2E200260AFC /* Frameworks */,
+				0AD1A9CE20BDD2E200260AFC /* Resources */,
+				2C2E981F1EE483A84ED7BCA4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Madpac;
+			productName = Madpac;
+			productReference = 0AD1A9D020BDD2E200260AFC /* Madpac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AD1A9C820BDD2E200260AFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Kevin van den Hoek";
+				TargetAttributes = {
+					0AD1A9CF20BDD2E200260AFC = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 0AD1A9CB20BDD2E200260AFC /* Build configuration list for PBXProject "MADPAC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AD1A9C720BDD2E200260AFC;
+			productRefGroup = 0AD1A9D120BDD2E200260AFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AD1A9CF20BDD2E200260AFC /* Madpac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AD1A9CE20BDD2E200260AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5AC50120BE105D00964F1A /* Lato-Bold.ttf in Resources */,
+				0A5AC50020BE105D00964F1A /* Lato-Light.ttf in Resources */,
+				0A5AC4FF20BE105D00964F1A /* Lato-Regular.ttf in Resources */,
+				0AD1A9DE20BDD2E300260AFC /* LaunchScreen.storyboard in Resources */,
+				0AD1A9DB20BDD2E300260AFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2901FC79FA6BC2551222C061 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Madpac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C2E981F1EE483A84ED7BCA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Madpac/Pods-Madpac-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/EasyPeasy/EasyPeasy.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/TIFExtensions/TIFExtensions.framework",
+				"${BUILT_PRODUCTS_DIR}/TIFNetwork/TIFNetwork.framework",
+				"${BUILT_PRODUCTS_DIR}/TIFUIElements/TIFUIElements.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyPeasy.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nuke.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TIFExtensions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TIFNetwork.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TIFUIElements.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Madpac/Pods-Madpac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AD1A9CC20BDD2E200260AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF9D6A720BEE7AD005790E4 /* MADPlayButton.swift in Sources */,
+				0A5AC52320BEAEB600964F1A /* UIImageView+Extension.swift in Sources */,
+				0A1241D720FA6A2000006A23 /* MADSegmentedControl.swift in Sources */,
+				0A310B6A21037AF2001E0CEB /* UITabBarController+Extension.swift in Sources */,
+				0A310B782104D872001E0CEB /* HapticFeedbackHelper.swift in Sources */,
+				0A5AC50520BE126200964F1A /* MADPostCollectionViewCell.swift in Sources */,
+				0A310B702103A78D001E0CEB /* MADVideoTabNavigationAnimator.swift in Sources */,
+				0A60F9082115D217005EC91B /* RecentSearchView.swift in Sources */,
+				0A785B4D2189DD8A00C2656B /* MADHighlightedButton.swift in Sources */,
+				0A1241EB20FAB46200006A23 /* MADVideoPlayerView.swift in Sources */,
+				0A5AC50E20BE2C0F00964F1A /* MADImageView.swift in Sources */,
+				0A5AC50C20BE2BC300964F1A /* MADLabel.swift in Sources */,
+				0A5AC4AB20BDD63F00964F1A /* UIColor+Extension.swift in Sources */,
+				0A5AC4C220BDF13200964F1A /* MADCategoryItem.swift in Sources */,
+				0A20B071210E08B800738D9F /* MADPlayerManager.swift in Sources */,
+				0AD9C5F020FE7F81008B550C /* MADNavigationInteractor.swift in Sources */,
+				0A5AC4D020BE00AB00964F1A /* MADPhotoViewController.swift in Sources */,
+				0A45CC0820BF2FC20075F6F2 /* MADVideoView.swift in Sources */,
+				0A65AAE920F9574800A09166 /* UserPreferences.swift in Sources */,
+				0A5AC4BC20BDE6A200964F1A /* MADAPIWrapper.swift in Sources */,
+				0A92E04A20F694B200E4E96F /* CollectionViewUpdater.swift in Sources */,
+				0A1241FB20FBAFEF00006A23 /* MADDetailHeaderView.swift in Sources */,
+				0A8AB02C2113ADC800E2F8D7 /* SeekView.swift in Sources */,
+				0A785B4B2189D8FA00C2656B /* ReloadViewController.swift in Sources */,
+				0AF9D6A520BEE795005790E4 /* MADButton.swift in Sources */,
+				0A5AC4CB20BDFF7200964F1A /* MADPostsViewController.swift in Sources */,
+				0A1241E320FAA94A00006A23 /* MoreCollectionViewCell.swift in Sources */,
+				0AD9598E2187404700833C97 /* Collection+Extension.swift in Sources */,
+				0A1241CE20FA5D1600006A23 /* MADTopView.swift in Sources */,
+				0A1241F120FB83A800006A23 /* MADDetailViewController.swift in Sources */,
+				0ABC94EC2117CD1B001EE845 /* MADLinkButton.swift in Sources */,
+				0ABC94EA2117BD2F001EE845 /* MADOptionsButton.swift in Sources */,
+				0A5AC4D720BE01B900964F1A /* MADNavigationViewController.swift in Sources */,
+				0A5AC4BA20BDDFC200964F1A /* Categories.swift in Sources */,
+				0A1241FD20FBD91200006A23 /* HTMLHelper.swift in Sources */,
+				0AD1A9D620BDD2E200260AFC /* MADBaseViewController.swift in Sources */,
+				0A5AC4B720BDDDC300964F1A /* UIViewController+Extension.swift in Sources */,
+				0ABC94E82117A75C001EE845 /* MADOptionsView.swift in Sources */,
+				0A5AC4C920BDFE7600964F1A /* MADTabBarController.swift in Sources */,
+				0A0E78932110F2D200E0283C /* MediaSessionHelper.swift in Sources */,
+				0A60F8FF2115AAED005EC91B /* MADSearchViewController.swift in Sources */,
+				0A40736F20BF3199004FBA69 /* MADVideoType.swift in Sources */,
+				0A02BF4B2105239C00FB2EB1 /* MADProgressBar.swift in Sources */,
+				0A310B722103EE18001E0CEB /* TransformingImageView.swift in Sources */,
+				0A1241ED20FAC96A00006A23 /* MADVideoBottomView.swift in Sources */,
+				0A5AC51C20BEA5FA00964F1A /* MADLoadingView.swift in Sources */,
+				0A1241CC20FA5BCE00006A23 /* TopBarPage.swift in Sources */,
+				0AD1A9D420BDD2E200260AFC /* AppDelegate.swift in Sources */,
+				0A5AC4AE20BDD87000964F1A /* MADAPI.swift in Sources */,
+				0A20B073210E0A5000738D9F /* MADPlayer.swift in Sources */,
+				0A1241FF20FBEB1E00006A23 /* MADDetailVideoHeaderView.swift in Sources */,
+				0A8FE62A210CD7CB0052A8FD /* AVPlayer+Extension.swift in Sources */,
+				0A5AC4D520BE013400964F1A /* MADVideoViewController.swift in Sources */,
+				0AC9F83520BF2432008FBFA4 /* MADPhotoLoadingCollectionViewCell.swift in Sources */,
+				0A0790EE21067D3E00148139 /* MADVolumeView.swift in Sources */,
+				0A5AC4E920BE0B4D00964F1A /* MADInterviewCollectionViewCell.swift in Sources */,
+				0A60F8FC2115A5F9005EC91B /* SearchEnabledPage.swift in Sources */,
+				0A12420220FBEC9B00006A23 /* MADVideoDetailViewController.swift in Sources */,
+				0A5AC4ED20BE0B6300964F1A /* MADPhotoCollectionViewCell.swift in Sources */,
+				0A60F8FA2114E26E005EC91B /* ColorUpdatable.swift in Sources */,
+				0A20B075210E3E8900738D9F /* MADConstants.swift in Sources */,
+				0A1241DD20FA74C500006A23 /* MADRoundView.swift in Sources */,
+				0A785B482189CEDD00C2656B /* AppInit.swift in Sources */,
+				0A5AC51A20BEA0D900964F1A /* MADBaseLoadingCollectionViewCell.swift in Sources */,
+				0A310B6E21039E9D001E0CEB /* MADVideoTabDetailViewController.swift in Sources */,
+				0AC9F83020BF0DB1008FBFA4 /* MADSimpleAPIWrapper.swift in Sources */,
+				0A1241E520FAAD4A00006A23 /* UserDefaults+Extension.swift in Sources */,
+				0A45CC0620BF2F580075F6F2 /* YoutubeHelper.swift in Sources */,
+				0ABC94E3211789D5001EE845 /* MADPopoverViewController.swift in Sources */,
+				0A1241CA20FA078B00006A23 /* MADLoadingOverlay.swift in Sources */,
+				0A0CF6D220F9890F003F7136 /* MADStartupOverlay.swift in Sources */,
+				0A5AC4D220BE00B800964F1A /* MADInterviewsViewController.swift in Sources */,
+				0A5AC4F920BE0B9600964F1A /* MADArticleCollectionViewCell.swift in Sources */,
+				0A1241EF20FB65C000006A23 /* MADBlurView.swift in Sources */,
+				0A5AC51620BE9FFB00964F1A /* MADArticleLoadingCollectionViewCell.swift in Sources */,
+				0A02BF4F21052EE200FB2EB1 /* PopAnimator.swift in Sources */,
+				0A1241D120FA66BF00006A23 /* PostCategoryTopBarView.swift in Sources */,
+				0A1241DB20FA6A9800006A23 /* MADSegmentedControlCollectionViewCell.swift in Sources */,
+				0ABC94E521178AB9001EE845 /* MADThemePopoverViewController.swift in Sources */,
+				0A52C6AC214577FB00DCE101 /* MADVideoArticleCollectionViewCell.swift in Sources */,
+				0AD959902187485C00833C97 /* MADWebView.swift in Sources */,
+				0AC9F82E20BF0A45008FBFA4 /* MADSimpleAPI.swift in Sources */,
+				0AD959972187798500833C97 /* MADPlayerViewController.swift in Sources */,
+				0A5AC4D920BE02BB00964F1A /* MADMoreViewController.swift in Sources */,
+				0A5AC51F20BEA9F200964F1A /* CGFloat+Extension.swift in Sources */,
+				0A5AC51220BE369700964F1A /* UIFont+Extension.swift in Sources */,
+				0A5AC51020BE2C4C00964F1A /* MADView.swift in Sources */,
+				0A5AC4BE20BDEECA00964F1A /* Posts.swift in Sources */,
+				0A5AC4F520BE0B8800964F1A /* MADVideoCollectionViewCell.swift in Sources */,
+				0A1241E020FA9F7100006A23 /* MADVideoTopView.swift in Sources */,
+				0A5AC50A20BE145500964F1A /* MADCollectionView.swift in Sources */,
+				0AD959942187789C00833C97 /* UIView+Extension.swift in Sources */,
+				0A78BC062111011300076F52 /* AudioControllerPage.swift in Sources */,
+				0A02BF4D21052EB700FB2EB1 /* MADBasicNavigationAnimator.swift in Sources */,
+				0A60F90A2115D289005EC91B /* MADSearchBar.swift in Sources */,
+				0AAB612F220CCEA1004F62CE /* MADSearchNavigationAnimator.swift in Sources */,
+				0A5AC4B220BDDC4800964F1A /* MADLaunchViewController.swift in Sources */,
+				0AC9F83320BF1D3C008FBFA4 /* TabbedPage.swift in Sources */,
+				0A5AC4CE20BE006A00964F1A /* MADHomeViewController.swift in Sources */,
+				0AF9D6A920BEFD1F005790E4 /* MADInterviewLoadingCell.swift in Sources */,
+				0A2E898520FD3A7A0030EA0E /* TransformingVideoPlayerView.swift in Sources */,
+				0A5AC4B020BDD9B400964F1A /* Environment.swift in Sources */,
+				0A310B6C21039D51001E0CEB /* MADArticleDetailViewController.swift in Sources */,
+				0A5AC4C420BDF1BC00964F1A /* MADPostItem.swift in Sources */,
+				0A5AC4F120BE0B7900964F1A /* MADGalleryCollectionViewCell.swift in Sources */,
+				0A5AC4E620BE0B1000964F1A /* PostUpdatable.swift in Sources */,
+				0A310B762104B1D0001E0CEB /* MADLoadingBottomBar.swift in Sources */,
+				0A5AC50720BE13D600964F1A /* MADPostsCollectionViewController.swift in Sources */,
+				0A92E04C20F6AE0D00E4E96F /* AnimatableCell.swift in Sources */,
+				0A5AC51820BEA00C00964F1A /* MADBaseCollectionViewCell.swift in Sources */,
+				0A1241F620FB9BE300006A23 /* NavigationTransitioningView.swift in Sources */,
+				0A1241F420FB948700006A23 /* MADTransitioningViewNavigationAnimator.swift in Sources */,
+				0A52C6AF2145787300DCE101 /* MADTextBlurOverlay.swift in Sources */,
+				0A02BF4821051A7200FB2EB1 /* MADVideoControlsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0AD1A9DC20BDD2E300260AFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AD1A9DD20BDD2E300260AFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AD1A9E020BDD2E300260AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0AD1A9E120BDD2E300260AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AD1A9E320BDD2E300260AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6C5659BE800B87EFB5B36DC /* Pods-Madpac.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UBPKESEVTV;
+				INFOPLIST_FILE = Madpac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zero72.madpac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AD1A9E420BDD2E300260AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409736423FB05D93ABBCBD14 /* Pods-Madpac.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UBPKESEVTV;
+				INFOPLIST_FILE = Madpac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zero72.madpac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AD1A9CB20BDD2E200260AFC /* Build configuration list for PBXProject "MADPAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD1A9E020BDD2E300260AFC /* Debug */,
+				0AD1A9E120BDD2E300260AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AD1A9E220BDD2E300260AFC /* Build configuration list for PBXNativeTarget "Madpac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD1A9E320BDD2E300260AFC /* Debug */,
+				0AD1A9E420BDD2E300260AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AD1A9C820BDD2E200260AFC /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Madpac {
+  umbrella header "Pods-Madpac-umbrella.h"
+
+  export *
+  module * { export * }
+}

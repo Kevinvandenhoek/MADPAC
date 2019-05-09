@@ -1,0 +1,6 @@
+framework module TIFExtensions {
+  umbrella header "TIFExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}
